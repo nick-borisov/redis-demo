@@ -1,12 +1,9 @@
 .header {
+  display: flex;
+  align-items: center;
+  height: 100%;
   padding: 10px 40px;
   border-bottom: 2px solid var(--color-gray-light);
-
-  &__container {
-    display: flex;
-    align-items: center;
-    height: 45px;
-  }
 
   &__logo {
     display: flex;
