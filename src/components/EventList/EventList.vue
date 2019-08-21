@@ -11,14 +11,18 @@
           />
       </li>
     </ul>
+    <Pagination/>
   </div>
 </template>
 
 <script>
   import EventCard from '../EventCard'
+  import Pagination from '../Pagination'
+
   export default {
     components: {
       EventCard,
+      Pagination,
     },
     data() {
       return {
