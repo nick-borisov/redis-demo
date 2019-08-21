@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900|Montserrat:400,500,600&display=swap');
+
+body {
+  font-weight: 400;
+  font-size: var(--font-size-default);
+  font-family: var(--font-prime);
+  line-height: 1.25;
+  color: var(--color-main);
+}
+
+h1, .text-h1 {
+  font-weight: 500;
+  font-size: var(--font-size-h1);
+  font-family: var(--font-accent);
+}
+
+h2, .text-h2 {
+  font-weight: 600;
+  font-size: var(--font-size-h2);
+  font-family: var(--font-accent);
+}
+
+small, .text-small {
+  font-weight: 900;
+  font-size: var(--font-size-small);
+}
