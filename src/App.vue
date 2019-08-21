@@ -29,7 +29,25 @@
     </div>
 
     <div class="page__content">
-    
+
+      <div class="page__toolbar">
+        <div class="page__toolbar-title">
+          <h1>Hi, Gregory Murphy</h1>
+        </div>
+        <div class="page__toolbar-sort">
+
+        </div>
+        <div class="page__toolbar-add">
+          <Button
+            rounded
+            large
+            text="+"
+            />
+        </div>
+      </div>
+
+      <EventList/>
+
     </div>
 
     <div class="page__sidebar page__sidebar--right">
@@ -42,6 +60,7 @@
 <script>
 import SiteHeader from './components/SiteHeader'
 import SiteMenu from './components/SiteMenu'
+import EventList from './components/EventList'
 
 import Button from './widgets/Button'
 
@@ -52,7 +71,8 @@ export default {
   components: {
     SiteHeader,
     SiteMenu,
-    Button
+    Button,
+    EventList
   }
 }
 </script>

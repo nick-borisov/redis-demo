@@ -43,4 +43,18 @@ body {
   &__content {
     padding: 30px 30px 20px;
   }
+
+  &__toolbar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+
+    &-title {
+      margin-right: auto;
+    }
+
+    &-add {
+      margin-left: 120px;
+    }
+  }
 }
