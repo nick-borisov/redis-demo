@@ -1,9 +1,8 @@
 <template>
   <div class="event-list">
     <ul class="event-list__content">
-      <li class="event-list__content-item" v-for="(item, index) in list">
+      <li class="event-list__content-item" v-for="(item, index) in list" :key="index">
         <EventCard
-          :key="index"
           :title="item.title"
           :description="item.description"
           :date="item.date"

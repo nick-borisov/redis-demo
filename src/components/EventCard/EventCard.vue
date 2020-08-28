@@ -16,7 +16,7 @@
         {{ date }}
       </time>
       <div class="event-card__users">
-        <div class="event-card__users-item" v-for="(item, index) in users">
+        <div class="event-card__users-item" v-for="(item, index) in users" :key="index">
           <img :src="item.photo" :alt="item.name"/>
         </div>
       </div>
